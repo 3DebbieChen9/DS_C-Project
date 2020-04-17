@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */; };
+		8F6B077A2449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12736 - Quiz1 Cargo Truck Problem.cpp"; sourceTree = "<group>"; };
 		8F2194892428C73B00CB4247 /* 12698 - Steal the most value Quiz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "12698 - Steal the most value Quiz.cpp"; path = "DS_C++ Project/Labs/12698 - Steal the most value Quiz.cpp"; sourceTree = SOURCE_ROOT; };
+		8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12743 - Quiz2_COVID-19 Simulation.cpp"; sourceTree = "<group>"; };
 		8FA903BB23FFF7990045F3E0 /* DS_C++ Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DS_C++ Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "12687 - Steal the most value.cpp"; path = "DS_C++ Project/HWs/12687 - Steal the most value.cpp"; sourceTree = SOURCE_ROOT; };
 		8FF9786F241E8BAE00F1C846 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = SOURCE_ROOT; };
@@ -47,6 +49,7 @@
 			children = (
 				8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */,
 				8FFA00342435A87000254DA8 /* 12726 - Block puzzle.cpp */,
+				8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */,
 			);
 			path = HWs;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */,
+				8F6B077A2449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
