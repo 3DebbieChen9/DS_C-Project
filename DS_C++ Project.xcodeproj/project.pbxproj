@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FA903BF23FFF7990045F3E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FA903BE23FFF7990045F3E0 /* main.cpp */; };
+		8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12736 - Quiz1 Cargo Truck Problem.cpp"; sourceTree = "<group>"; };
+		8F2194892428C73B00CB4247 /* 12698 - Steal the most value Quiz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "12698 - Steal the most value Quiz.cpp"; path = "DS_C++ Project/Labs/12698 - Steal the most value Quiz.cpp"; sourceTree = SOURCE_ROOT; };
 		8FA903BB23FFF7990045F3E0 /* DS_C++ Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DS_C++ Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FA903BE23FFF7990045F3E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "12687 - Steal the most value.cpp"; path = "DS_C++ Project/HWs/12687 - Steal the most value.cpp"; sourceTree = SOURCE_ROOT; };
+		8FF9786F241E8BAE00F1C846 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = SOURCE_ROOT; };
+		8FFA00342435A87000254DA8 /* 12726 - Block puzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12726 - Block puzzle.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F21948D2428D2A600CB4247 /* HWs */ = {
+			isa = PBXGroup;
+			children = (
+				8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */,
+				8FFA00342435A87000254DA8 /* 12726 - Block puzzle.cpp */,
+			);
+			path = HWs;
+			sourceTree = "<group>";
+		};
+		8F21948E2428D2BE00CB4247 /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				8F2194892428C73B00CB4247 /* 12698 - Steal the most value Quiz.cpp */,
+				8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */,
+			);
+			path = Labs;
+			sourceTree = "<group>";
+		};
 		8FA903B223FFF7990045F3E0 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +79,9 @@
 		8FA903BD23FFF7990045F3E0 /* DS_C++ Project */ = {
 			isa = PBXGroup;
 			children = (
-				8FA903BE23FFF7990045F3E0 /* main.cpp */,
+				8FF9786F241E8BAE00F1C846 /* Test.cpp */,
+				8F21948E2428D2BE00CB4247 /* Labs */,
+				8F21948D2428D2A600CB4247 /* HWs */,
 			);
 			path = "DS_C++ Project";
 			sourceTree = "<group>";
@@ -88,7 +112,7 @@
 		8FA903B323FFF7990045F3E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Debbie;
 				TargetAttributes = {
 					8FA903BA23FFF7990045F3E0 = {
@@ -119,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA903BF23FFF7990045F3E0 /* main.cpp in Sources */,
+				8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +262,7 @@
 		8FA903C323FFF7990045F3E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38BLS44DFB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -248,6 +273,7 @@
 		8FA903C423FFF7990045F3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38BLS44DFB;
 				ENABLE_HARDENED_RUNTIME = YES;
