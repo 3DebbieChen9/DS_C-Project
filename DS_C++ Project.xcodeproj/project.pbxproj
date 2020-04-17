@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */; };
 		8F6B077A2449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */; };
-		8F6B077E2449B7A300033C1D /* Bag Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B077C2449B7A300033C1D /* Bag Container.cpp */; };
-		8F6B077F2449B7A300033C1D /* Chain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B077D2449B7A300033C1D /* Chain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,10 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */,
-				8F6B077F2449B7A300033C1D /* Chain.cpp in Sources */,
 				8F6B077A2449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp in Sources */,
-				8F6B077E2449B7A300033C1D /* Bag Container.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
