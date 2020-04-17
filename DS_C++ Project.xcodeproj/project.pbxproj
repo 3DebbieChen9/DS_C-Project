@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */; };
 		8F6B077A2449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */; };
+		8F6B077E2449B7A300033C1D /* Bag Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B077C2449B7A300033C1D /* Bag Container.cpp */; };
+		8F6B077F2449B7A300033C1D /* Chain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B077D2449B7A300033C1D /* Chain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12736 - Quiz1 Cargo Truck Problem.cpp"; sourceTree = "<group>"; };
 		8F2194892428C73B00CB4247 /* 12698 - Steal the most value Quiz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "12698 - Steal the most value Quiz.cpp"; path = "DS_C++ Project/Labs/12698 - Steal the most value Quiz.cpp"; sourceTree = SOURCE_ROOT; };
 		8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12743 - Quiz2_COVID-19 Simulation.cpp"; sourceTree = "<group>"; };
+		8F6B077C2449B7A300033C1D /* Bag Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Bag Container.cpp"; sourceTree = "<group>"; };
+		8F6B077D2449B7A300033C1D /* Chain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chain.cpp; sourceTree = "<group>"; };
 		8FA903BB23FFF7990045F3E0 /* DS_C++ Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DS_C++ Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "12687 - Steal the most value.cpp"; path = "DS_C++ Project/HWs/12687 - Steal the most value.cpp"; sourceTree = SOURCE_ROOT; };
 		8FF9786F241E8BAE00F1C846 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = SOURCE_ROOT; };
@@ -63,6 +67,15 @@
 			path = Labs;
 			sourceTree = "<group>";
 		};
+		8F6B077B2449B75C00033C1D /* Class Example */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B077C2449B7A300033C1D /* Bag Container.cpp */,
+				8F6B077D2449B7A300033C1D /* Chain.cpp */,
+			);
+			path = "Class Example";
+			sourceTree = "<group>";
+		};
 		8FA903B223FFF7990045F3E0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				8FF9786F241E8BAE00F1C846 /* Test.cpp */,
-				8F21948E2428D2BE00CB4247 /* Labs */,
 				8F21948D2428D2A600CB4247 /* HWs */,
+				8F21948E2428D2BE00CB4247 /* Labs */,
+				8F6B077B2449B75C00033C1D /* Class Example */,
 			);
 			path = "DS_C++ Project";
 			sourceTree = "<group>";
@@ -147,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1BC958244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp in Sources */,
+				8F6B077F2449B7A300033C1D /* Chain.cpp in Sources */,
 				8F6B077A2449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp in Sources */,
+				8F6B077E2449B7A300033C1D /* Bag Container.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
