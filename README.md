@@ -1,6 +1,5 @@
 # DS_C++ Project
-###### tags: `CS` `NTHU Junior II`
-## 202002 Data Structure
+###### tags: `CS` `202002 Data Structure` `NTHU Junior II`
 
 ## Assignments
 - HW 0 
@@ -10,7 +9,7 @@
   - All Accepted (12/12)
   - [12726 - Block puzzle](http://140.114.86.238/contest/1979/)
 - HW 2 
-  - 
+
   - [12743 - Quiz2_COVID-19 Simulation](https://acm.cs.nthu.edu.tw/problem/12743/)
 ## Labs
 - Lab 0 
