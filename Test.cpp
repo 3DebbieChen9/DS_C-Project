@@ -7,16 +7,18 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 
 int main()
 {
-    int array[3] = {1,2,3};
-    for(int i = 0; i < 3; i++) {
-        cout << array[i];
-    }
-    cout << endl;
+    int date;
+    string name, state;
+    cin >> date >> name >> state;
+    cout << "date : " << date << endl;
+    cout << "name : " << name << endl;
+    cout << "state : " << state << endl;
     //printf("%d", array[1]);
     
     return 0;
