@@ -130,8 +130,8 @@ int main(void) {
     header_of_header->setNextNode(header);
     for(int i = 1; i < max(row, col); i++) {
         node *new_header = new node(1, 0, 0, i, 0, 0, false, false, "None", "header_of_header", NULL, NULL, NULL, NULL, NULL);
-        new_header->setDownNode(header);
-        new_header->setRightNode(header);
+        new_header->setDownNode(new_header);
+        new_header->setRightNode(new_header);
         header->setNextNode(new_header);
         header = new_header;
     }
