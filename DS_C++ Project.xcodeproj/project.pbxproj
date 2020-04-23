@@ -51,7 +51,6 @@
 				8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */,
 				8FFA00342435A87000254DA8 /* 12726 - Block puzzle.cpp */,
 				8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */,
-				8F21948E2428D2BE00CB4247 /* Labs */,
 			);
 			path = HWs;
 			sourceTree = "<group>";
@@ -95,6 +94,7 @@
 			children = (
 				8FF9786F241E8BAE00F1C846 /* Test.cpp */,
 				8F21948D2428D2A600CB4247 /* HWs */,
+				8F21948E2428D2BE00CB4247 /* Labs */,
 				8F6B077B2449B75C00033C1D /* Class Example */,
 			);
 			path = "DS_C++ Project";
