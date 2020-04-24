@@ -8,18 +8,14 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 
 int main()
 {
-    int date;
-    string name, state;
-    cin >> date >> name >> state;
-    cout << "date : " << date << endl;
-    cout << "name : " << name << endl;
-    cout << "state : " << state << endl;
-    //printf("%d", array[1]);
+    float rate = 100;
+    cout << fixed << setprecision(2) << rate << "%" << endl;
     
     return 0;
 }
