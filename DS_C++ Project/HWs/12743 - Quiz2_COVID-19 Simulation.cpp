@@ -350,8 +350,8 @@ int main(void) {
                 tmp_ICU_queue->setNextNode(NULL);
                 tmp_ICU_queue = p;
             }
-            ///delete ICU_queue;
         }
+        delete ICU_queue;
         cur_time++;
     }
 
