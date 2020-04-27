@@ -18,3 +18,6 @@
 - Lab 1
   - Not Accepted (2/5)
   - [12736 - Quiz1 Cargo Truck Problem](https://acm.cs.nthu.edu.tw/contest/1987/)
+- Lab 2
+  - All Accepted (5/5)
+  - [12754 - DS_Quiz2_PlantFlower](http://140.114.86.238/problem/12754/)
