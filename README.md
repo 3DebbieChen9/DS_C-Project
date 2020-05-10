@@ -12,7 +12,7 @@
   - All Accepted (10/10)
   - [12743 - Quiz2_COVID-19 Simulation](https://acm.cs.nthu.edu.tw/problem/12743/)
 - HW 3 
-  - 
+  - All Accepted (10/10)
   - [12769 - EECS2040_HW3](http://140.114.86.238/problem/12769/)
 ## Labs
 - Lab 0 
@@ -24,3 +24,5 @@
 - Lab 2
   - All Accepted (5/5)
   - [12754 - DS_Quiz2_PlantFlower](http://140.114.86.238/problem/12754/)
+- Lab 3
+  - 
