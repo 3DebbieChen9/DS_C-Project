@@ -25,4 +25,5 @@
   - All Accepted (5/5)
   - [12754 - DS_Quiz2_PlantFlower](http://140.114.86.238/problem/12754/)
 - Lab 3
-  - 
+  - All Accepted (5/5)
+  - [12792 - Brute-forcibly Finding Tree Anagrams](http://140.114.86.238/problem/12792/)
