@@ -26,15 +26,31 @@ char* listAppend(char* oldList, char appendChar) {
     return oldList;
 }
 
+void inputToHeap(char* heapOrder, int* heap, char *newHeapOrder) {
+    int j = 1;
+    int i = 0;
+    while(i < int(strlen(heapOrder))) {
+        if(heap[j] == 1) {
+            newHeapOrder[j] = heapOrder[i];
+            i++;
+            j++;
+        }
+        else {
+            newHeapOrder[j] = ' ';
+            j++;
+        }
+    }
+}
 
 int main()
 {
-    char oldList[3] = {};
-    char *newList;
-    newList = listAppend(oldList, 'd');
-    newList = listAppend(newList, 'z');
-    for(int i = 0; i < strlen(newList); i++) {
-        cout << newList[i];
+    char heapOrder[100] = "abcd";
+    cout << int(strlen(heapOrder)) << endl;
+    int heap[100] = {0,1,1,0,1,1};
+    char newHeapOrder[100] = {};
+    inputToHeap(heapOrder, heap, newHeapOrder);
+    for(int i = 0 ; i < 6; i++) {
+        cout << newHeapOrder[i];
     }
     return 0;
 }

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FD1B06824685CB800941DA7 /* function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1B05F2463A79200941DA7 /* function.cpp */; };
-		8FD1B06924685CC500941DA7 /* 12769.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1B05D2463A77700941DA7 /* 12769.cpp */; };
+		8FD1B06D246978D000941DA7 /* 12792 - Brute-forcibly Finding Tree Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1B06A246960D500941DA7 /* 12792 - Brute-forcibly Finding Tree Anagrams.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +32,7 @@
 		8FD1B05C2463A72C00941DA7 /* function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = function.h; sourceTree = "<group>"; };
 		8FD1B05D2463A77700941DA7 /* 12769.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 12769.cpp; sourceTree = "<group>"; };
 		8FD1B05F2463A79200941DA7 /* function.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function.cpp; sourceTree = "<group>"; };
+		8FD1B06A246960D500941DA7 /* 12792 - Brute-forcibly Finding Tree Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12792 - Brute-forcibly Finding Tree Anagrams.cpp"; sourceTree = "<group>"; };
 		8FE6C8782456EBC6007EA5A1 /* 12754 - DS_Quiz2_PlantFlower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12754 - DS_Quiz2_PlantFlower.cpp"; sourceTree = "<group>"; };
 		8FF9786E241E8BAE00F1C846 /* 12687 - Steal the most value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "12687 - Steal the most value.cpp"; path = "DS_C++ Project/HWs/12687 - Steal the most value.cpp"; sourceTree = SOURCE_ROOT; };
 		8FF9786F241E8BAE00F1C846 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = SOURCE_ROOT; };
@@ -67,6 +67,7 @@
 				8F2194892428C73B00CB4247 /* 12698 - Steal the most value Quiz.cpp */,
 				8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */,
 				8FE6C8782456EBC6007EA5A1 /* 12754 - DS_Quiz2_PlantFlower.cpp */,
+				8FD1B06A246960D500941DA7 /* 12792 - Brute-forcibly Finding Tree Anagrams.cpp */,
 			);
 			path = Labs;
 			sourceTree = "<group>";
@@ -174,8 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FD1B06824685CB800941DA7 /* function.cpp in Sources */,
-				8FD1B06924685CC500941DA7 /* 12769.cpp in Sources */,
+				8FD1B06D246978D000941DA7 /* 12792 - Brute-forcibly Finding Tree Anagrams.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
