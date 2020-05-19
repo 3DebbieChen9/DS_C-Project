@@ -14,6 +14,9 @@
 - HW 3 
   - All Accepted (10/10)
   - [12769 - EECS2040_HW3](http://140.114.86.238/problem/12769/)
+- HW 4
+  - 
+  - [12794 - Min Cost to take the Course](http://140.114.86.238/problem/12794/)
 ## Labs
 - Lab 0 
   - All Accepted (5/5)
