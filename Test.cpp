@@ -8,49 +8,37 @@
 
 
 #include <iostream>
-#include <string.h>
+
 using namespace std;
 
+int foo = 0;
+int fuck = 5;
 
-/*char* listAppend(char* oldList, char appendChar) {
-    int newSize = int(strlen(oldList)) + 1;
-    char newList[newSize];
-    strcpy(newList, oldList);
-    newList[newSize - 1] = appendChar;
-    return newList;
-}*/
+class Base {
+public:
+    Base() {cout << fuck;}
+};
 
-char* listAppend(char* oldList, char appendChar) {
-    int newSize = int(strlen(oldList));
-    oldList[newSize] = appendChar;
-    return oldList;
-}
+class A: public Base {
+private:
+    int foo;
+public:
+    A() {foo = 1; cout << foo;}
+friend class B;
 
-void inputToHeap(char* heapOrder, int* heap, char *newHeapOrder) {
-    int j = 1;
-    int i = 0;
-    while(i < int(strlen(heapOrder))) {
-        if(heap[j] == 1) {
-            newHeapOrder[j] = heapOrder[i];
-            i++;
-            j++;
-        }
-        else {
-            newHeapOrder[j] = ' ';
-            j++;
-        }
-    }
-}
+};
+
+class B: public Base{
+public:
+    void show(A& a) {cout << a.foo << foo;}
+};
+
+
 
 int main()
 {
-    char heapOrder[100] = "abcd";
-    cout << int(strlen(heapOrder)) << endl;
-    int heap[100] = {0,1,1,0,1,1};
-    char newHeapOrder[100] = {};
-    inputToHeap(heapOrder, heap, newHeapOrder);
-    for(int i = 0 ; i < 6; i++) {
-        cout << newHeapOrder[i];
-    }
+    A a;
+    B b;
+    b.show(a);
     return 0;
 }
