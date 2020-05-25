@@ -30,3 +30,6 @@
 - Lab 3
   - All Accepted (5/5)
   - [12792 - Brute-forcibly Finding Tree Anagrams](http://140.114.86.238/problem/12792/)
+- Lab 4
+  - All Accepted (5/5)
+  - [12802 - Least Skill Point](http://140.114.86.238/problem/12802/)
