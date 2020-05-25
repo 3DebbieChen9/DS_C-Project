@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F1DD10E24755D360007895E /* 12794 - Min Cost to take the Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DD10C24755D320007895E /* 12794 - Min Cost to take the Course.cpp */; };
+		8F4E0F18247BD60700003699 /* 12802 - Least Skill Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E0F17247BD60700003699 /* 12802 - Least Skill Point.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12736 - Quiz1 Cargo Truck Problem.cpp"; sourceTree = "<group>"; };
 		8F1DD10C24755D320007895E /* 12794 - Min Cost to take the Course.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12794 - Min Cost to take the Course.cpp"; sourceTree = "<group>"; };
 		8F2194892428C73B00CB4247 /* 12698 - Steal the most value Quiz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "12698 - Steal the most value Quiz.cpp"; path = "DS_C++ Project/Labs/12698 - Steal the most value Quiz.cpp"; sourceTree = SOURCE_ROOT; };
+		8F4E0F17247BD60700003699 /* 12802 - Least Skill Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12802 - Least Skill Point.cpp"; sourceTree = "<group>"; };
 		8F6B07792449B27800033C1D /* 12743 - Quiz2_COVID-19 Simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12743 - Quiz2_COVID-19 Simulation.cpp"; sourceTree = "<group>"; };
 		8F6B077C2449B7A300033C1D /* Bag Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Bag Container.cpp"; sourceTree = "<group>"; };
 		8F6B077D2449B7A300033C1D /* Chain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chain.cpp; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				8F1BC957244476FE00A82509 /* 12736 - Quiz1 Cargo Truck Problem.cpp */,
 				8FE6C8782456EBC6007EA5A1 /* 12754 - DS_Quiz2_PlantFlower.cpp */,
 				8FD1B06A246960D500941DA7 /* 12792 - Brute-forcibly Finding Tree Anagrams.cpp */,
+				8F4E0F17247BD60700003699 /* 12802 - Least Skill Point.cpp */,
 			);
 			path = Labs;
 			sourceTree = "<group>";
@@ -177,7 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1DD10E24755D360007895E /* 12794 - Min Cost to take the Course.cpp in Sources */,
+				8F4E0F18247BD60700003699 /* 12802 - Least Skill Point.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
