@@ -15,7 +15,7 @@
   - All Accepted (10/10)
   - [12769 - EECS2040_HW3](http://140.114.86.238/problem/12769/)
 - HW 4
-  - 
+  - All Accepted (10/10)
   - [12794 - Min Cost to take the Course](http://140.114.86.238/problem/12794/)
 ## Labs
 - Lab 0 
@@ -30,3 +30,6 @@
 - Lab 3
   - All Accepted (5/5)
   - [12792 - Brute-forcibly Finding Tree Anagrams](http://140.114.86.238/problem/12792/)
+- Lab 4
+  - All Accepted (5/5)
+  - [12802 - Least Skill Point](http://140.114.86.238/problem/12802/)
