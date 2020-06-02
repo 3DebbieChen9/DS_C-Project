@@ -17,6 +17,10 @@
 - HW 4
   - All Accepted (10/10)
   - [12794 - Min Cost to take the Course](http://140.114.86.238/problem/12794/)
+- HW 5
+  - ??
+  - [12820 - Maze Sorting](https://acm.cs.nthu.edu.tw/problem/12820/)
+
 ## Labs
 - Lab 0 
   - All Accepted (5/5)
